@@ -1,7 +1,7 @@
-const { people, ages } = require('./people');
+const { people, ages } = require("./people");
 
 console.log(people, ages);
 
-const os = require('os');
+const os = require("os");
 
 console.log(os.platform(), os.homedir());
