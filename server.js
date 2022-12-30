@@ -45,8 +45,6 @@ switch(req.url) {
     path += '404.html';
     res.statusCode = 404;
 }
-
-
 // send html
 fs.readFile(path, (err, data) => {
   if (err) {
